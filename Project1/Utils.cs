@@ -29,10 +29,5 @@ namespace Ex02
           {
                return (int)i_eNumOfCols;
           }
-
-          public static int numOfBorderSigns(int i_NumOfCols)
-          {
-               return (i_NumOfCols += (i_NumOfCols / 2));
-          }
      }
 }

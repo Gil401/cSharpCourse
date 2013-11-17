@@ -70,7 +70,7 @@ Please enter your name:
           public static string AssignPlayerName(short i_CurrPlayerNumber)
           {
                string pName;
-               Console.WriteLine("Player " + i_CurrPlayerNumber.ToString() + ", Please enter your name");
+               Console.WriteLine("Player " + i_CurrPlayerNumber+1.ToString() + ", Please enter your name");
                pName = Console.ReadLine();
                while (pName.Equals(""))
                {
@@ -81,7 +81,7 @@ Please enter your name:
 
           public static void FullColumnMsg()
           {
-               Console.WriteLine("I'm sorry, but this column is full");
+               Console.WriteLine("Sorry, but this column is full");
           }
      }
 }

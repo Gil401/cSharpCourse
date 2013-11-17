@@ -11,8 +11,6 @@ namespace Ex02
           public static void Main()
           {
                GameManager fourInARow = new GameManager();
-               
-               //fourInARow.startGame();
           }
      }
 }

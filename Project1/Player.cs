@@ -8,15 +8,15 @@ namespace Ex02
      {
           private bool isHumanPlayer;
           private string m_PlayerName;
-          private short points;
+          private static short s_Score;
           private static short k_CurrentPlayerNumber = 1;
           private const int k_Zero = 0;
           private eGameSigns m_PlayerSign;
 
           public Player (bool i_IsHumanPlayer)
           {
+               s_Score = k_Zero;
                isHumanPlayer = i_IsHumanPlayer;
-               points = k_Zero;
                m_PlayerSign = (eGameSigns)k_CurrentPlayerNumber;
                if (isHumanPlayer)
                {
